@@ -2,17 +2,12 @@
 namespace TacticalExpressions\Core\Observer;
 use Magento\Framework\Event\Observer as O;
 use Magento\Framework\Event\ObserverInterface;
-# 2026-05-07
-# 1) "Replace `INDEX` with `NOINDEX` in the `<meta name='robots' content='INDEX,FOLLOW'/>` tag
-# on layered navigation pages": https://github.com/national-glass-partitions/core/issues/1
-# 2) "Replace `INDEX` with `NOINDEX` in the `<meta name='robots' content='INDEX,FOLLOW'/>` tag
-# on `catalogsearch/result` pages": https://github.com/national-glass-partitions/core/issues/2
+# 2026-09-23
+# «We are now seeing filter URLs appearing in Google’s index»:
+# https://github.com/tactical-expressions/core/issues/1 -->
 final class LayoutGenerateBlocksAfter implements ObserverInterface {
 	/**
-	 * 2026-05-07
-	 * 2026-06-01
-	 * @todo "Replace `<meta name='robots' content='NOINDEX,FOLLOW'/>` with `robots.txt` rules":
-	 * https://github.com/national-glass-partitions/core/issues/11
+	 * 2026-09-23
 	 * @override
 	 * @see ObserverInterface::execute()
 	 * @see \Magento\Framework\View\Layout\Builder::loadLayoutUpdates():
