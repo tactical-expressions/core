@@ -1,6 +1,6 @@
 {
 	"name": "tactical-expressions/core"
-	,"version": "0.0.2"
+	,"version": "0.0.3"
 	,"description": "A custom module for tactical-expressions.com (Magento 2)"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/tactical-expressions/core"
@@ -11,7 +11,7 @@
 		,"homepage": "https://github.com/dmitrii-fediuk"
 		,"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=11.5.9"}
+	,"require": {"mage2pro/core": ">=11.6.0"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"TacticalExpressions\\Core\\": ""}}
 	,"keywords": ["Magento 2"]
 }
