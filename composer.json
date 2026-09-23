@@ -1,9 +1,9 @@
 {
 	"name": "tactical-expressions/core"
 	,"version": "0.0.1"
-	,"description": "A custom module for nationalglasspartitions.co.uk (Magento 2)"
+	,"description": "A custom module for tactical-expressions.com (Magento 2)"
 	,"type": "magento2-module"
-	,"homepage": "https://github.com/national-glass-partitions/core"
+	,"homepage": "https://github.com/tactical-expressions/core"
 	,"license": "MIT"
 	,"authors": [{
 		"name": "Dmitrii Fediuk"
