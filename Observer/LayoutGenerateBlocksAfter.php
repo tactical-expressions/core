@@ -4,7 +4,7 @@ use Magento\Framework\Event\Observer as O;
 use Magento\Framework\Event\ObserverInterface;
 # 2026-09-23
 # «We are now seeing filter URLs appearing in Google’s index»:
-# https://github.com/tactical-expressions/core/issues/1 -->
+# https://github.com/tactical-expressions/core/issues/1
 final class LayoutGenerateBlocksAfter implements ObserverInterface {
 	/**
 	 * 2026-09-23
@@ -21,8 +21,8 @@ final class LayoutGenerateBlocksAfter implements ObserverInterface {
 	function execute(O $o):void {
 		if (
 			df_is_catalog_search_result()
-			|| df_is_catalog_product_list_filtered()
 			|| df_is_catalog_product_list_adjusted_by_toolbar()
+			|| df_is_catalog_product_list_filtered()
 		) {
 			df_robots_no_index();
 		}
