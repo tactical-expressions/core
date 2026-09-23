@@ -1,0 +1,17 @@
+{
+	"name": "tactical-expressions/core"
+	,"version": "0.0.1"
+	,"description": "A custom module for nationalglasspartitions.co.uk (Magento 2)"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/national-glass-partitions/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitrii Fediuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://github.com/dmitrii-fediuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=11.5.8"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"TacticalExpressions\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}
